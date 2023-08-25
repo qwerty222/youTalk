@@ -75,7 +75,7 @@
     font-weight: 400;
 }
 
-.main h1 {
+.main__header {
     color: #333;
     font-family: Montserrat;
     font-size: 48px;
@@ -369,7 +369,7 @@
         margin-bottom: 24px;
     }
 
-    .main h1 {
+    .main__header {
         font-size: 24px;
         margin-bottom: 24px;
     }
@@ -449,7 +449,7 @@
         margin-bottom: 32px;
     }
 
-    .main h1 {
+    .main__header {
         font-size: 32px;
         margin-bottom: 24px;
     }
@@ -537,7 +537,7 @@
         display: block;
     }
 
-    .main h1 {
+    .main__header {
         font-size: 48px;
         margin-bottom: 32px;
     }
@@ -669,7 +669,7 @@
         margin-bottom: 40px;
     }
 
-    .main h1 {
+    .main__header {
         font-size: 48px;
         margin-bottom: 32px;
     }
@@ -804,7 +804,7 @@
         margin-bottom: 30px;
     }
 
-    .main h1 {
+    .main__header {
         font-size: 48px;
         margin-bottom: 32px;
     }
