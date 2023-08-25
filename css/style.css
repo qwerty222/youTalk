@@ -9,8 +9,7 @@
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
-    gap: 30px;
-    
+    gap: 30px;    
     padding-left: 51px;
 }
 
@@ -22,6 +21,12 @@
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     color: #333;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.header__navigation-item:hover {
+    color: rgba(0, 0, 0, 0.582);
 }
 
 .header__button {
@@ -39,7 +44,12 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+}
+
+.header__button:hover {
+    background-color: #03B2A5;
+    border: 1px solid E3F5F5;
+    color: white;
 }
 
 .header__burger-button {
@@ -61,11 +71,16 @@
     color: rgba(51, 51, 51, 0.70);
     font-family: Montserrat;
     font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .main h1 {
     color: #333;
     font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .main__articles {
@@ -210,7 +225,7 @@
 }
 
 .footer__top {
-    display: grid;    
+    display: grid;
 }
 
 .footer__top-block1,
@@ -270,12 +285,11 @@
 }
 
 .email-wrapper input::placeholder {
-    color: var(--text-secondary, #9D9D9D);
+    color: #9D9D9D;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
 }
 
 .email-wrapper button {
@@ -302,8 +316,6 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.25px;
 }
 
 .footer__top-block4 div {
@@ -329,7 +341,6 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
     opacity: 0.7;
 }
 
@@ -342,7 +353,6 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
     opacity: 0.7;
 }
 
@@ -683,10 +693,19 @@
         height: 206px;
     }
 
+    .article3 .main__article-header {
+        text-overflow: ellipsis;
+    }
+
+    .article3 .main__article-text {
+        text-overflow: ellipsis;
+    }
+
     .main__articles {
         gap: 24px;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 499px 458px 458px;
+        
     }
     
     .article1 {
